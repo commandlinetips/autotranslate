@@ -35,6 +35,8 @@ Configure the provider in `examples/next-app/autotranslate.config.ts`.
 - `app/[lang]/page.tsx` — server-component translation with `getT().t(...)`
 - `.translations/{en,es,fr,ja}.json` — generated catalogs
 
-> [!NOTE] This example pins **Next.js 16+**. The `proxy` file convention
-> replaces `middleware`; route `params` are async. Read the relevant guide in
+<!-- prettier-ignore -->
+> [!NOTE]
+> This example pins **Next.js 16+**. The `proxy` file convention replaces
+> `middleware`; route `params` are async. Read the relevant guide in
 > `node_modules/next/dist/docs/` before editing.

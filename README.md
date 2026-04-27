@@ -17,9 +17,11 @@ Write strings the way you write code. Run a command. Get translated catalogs.
 
 </div>
 
-> [!WARNING] autotranslate is pre-1.0. The API surface, package exports, and
-> on-disk catalog format may change without notice until **v1.0.0**. See
-> [`ROADMAP.md`](ROADMAP.md).
+<!-- prettier-ignore -->
+> [!WARNING]
+> autotranslate is pre-1.0. The API surface, package exports, and on-disk
+> catalog format may change without notice until **v1.0.0**.
+> See [`ROADMAP.md`](ROADMAP.md).
 
 ```tsx
 <T>
